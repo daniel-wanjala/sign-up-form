@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 1.3;
+	background-color: #424242;
+
+	display: flex;
+	justify-content: space-around;
+    margin-right: 70px;
+}
+
+.left-row {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.left-row h1{
+    font-family: 'Bungee Spice', cursive;
+    font-size: 6em;
+}
+
+.glow-item {
+	-webkit-box-shadow: 0px 0px 251px 146px rgba(45, 255, 196, 0.9);
+	-moz-box-shadow: 0px 0px 251px 146px rgba(45, 255, 196, 0.9);
+	box-shadow: 0px 0px 251px 146px rgba(45, 255, 196, 0.9);
+}
+
+.signup-form_header {
+	color: #000000;
+	font-weight: 700;
+	line-height: 39.7px;
+	font-size: 33px;
+	margin: 40px 0;
+	padding: 50px;
+	margin-bottom: 20px;
+
+	text-align: center;
+}
+
+.signup-form {
+	border: 1px solid #d6d9dc;
+	border-radius: 3px;
+
+	padding: 50px;
+	margin: 0 0 40px 0;
+}
+
+.signup-form_user-name,
+.signup-form_user-pswd,
+.signup-form_user-mail,
+.signup-form_repeat-pswd {
+	color: #bdbdbd;
+	margin-bottom: 40px;
+
+	display: flex;
+	align-items: center;
+}
+
+.signup-form_user-name img,
+.signup-form_user-pswd img,
+.signup-form_user-mail img,
+.signup-form_repeat-pswd img {
+	margin-right: 15px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="password"],
+.signup-form input[type="email"] {
+	border: 1px solid #d6d9dc;
+	border-radius: 3px;
+	padding: 7px;
+	font: 14px;
+	flex: 2;
+}
+
+.signup-form label {
+	margin-bottom: 15px;
+	flex: 1;
+}
+
+.signup-form_accept-terms {
+	margin-bottom: 20px;
+}
+
+.signup-form_accept-terms em {
+	color: #407fc7;
+}
+
+.signup-form_register-btn button {
+	font-size: 16px;
+	font-weight: bold;
+
+	color: #ffffff;
+	background-color: #5995da;
+
+	border: none;
+	border-radius: 3px;
+	padding: 10px 40px;
+	cursor: pointer;
+}
+
+.signup-form_register-btn button:hover {
+	background-color: #76aeed;
+}
+
+.signup-form_register-btn button:active {
+	background-color: #407fc7;
+}
